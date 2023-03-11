@@ -1,0 +1,104 @@
+/* h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+} */
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-style: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+
+header {
+  padding: 35px 0;
+  /* border: 1px solid red; */
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+.logo {
+  width: 10%;
+  /* border: 1px solid red; */
+  float: left;
+  margin-top: 7px;
+}
+.logo a {
+  display: block;
+}
+.logo a img {
+  width: 100%;
+}
+.menu {
+  width: 60%;
+  /* border: 1px solid red; */
+  float: right;
+}
+.menu ul {
+  float: right;
+  margin: 0;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  display: inline-block;
+  margin: 0 55px;
+  padding: 5px 3px;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.33s;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+.menu ul li:hover a {
+  /* color: #b4ad9e; */
+  border-bottom: 1px solid black;
+}
+.banner {
+}
+.b_img {
+  /* margin: 0 auto;
+  width: 90%;
+  padding: 30px; */
+}
+.b_img img {
+  width: 100%;
+}
+
+.perfect {
+  padding: 80px 80px;
+}
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid; */
+}
+.light {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+.title {
+  margin: 20px 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.text {
+  margin: 0;
+  line-height: 24px;
+}
+.mt_40 {
+  margin-top: 40px;
+}
